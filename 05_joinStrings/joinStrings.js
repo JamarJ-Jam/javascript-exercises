@@ -9,9 +9,14 @@
 
 // Add your code right below, good luck!
 
+const firstName = "Carlos"
+const lastName = "Stevenson"
+const thisYear = 2025
+const birthYear = 2007
 
+const greeting = "Hello!" + " " + "My name is" + " " + firstName + " " + lastName + " " + "and I am" + " " + (thisYear - birthYear) + " " + "years old."
 
-
+console.log (greeting)
 
 // Do not change this
 module.exports = {
